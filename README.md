@@ -4,7 +4,10 @@ API_PASSWORD = Yourpassword
 
 
 TRANSPORT_ROUTES = {
-    "https://ichigotv.net": {
+    "all://*.ichigotv.net": {
+        "verify_ssl": false
+    },
+    "all://ichigotv.net": {
         "verify_ssl": false
     }
 }
